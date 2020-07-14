@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+}
+
+#pohja {
+  position: absolute;
+  border-collapse: collapse;
+  left: calc(50% - 400px);
+  height: 700px;
+  width: 800px;
+  top: calc(50% - 350px);
+  overflow: auto;
+  border: 2px solid black;
+  box-shadow: 0 0 100px 20px #ffffff14;
+}
+
+.tiedot {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #404040;
+  transition: ease-in-out 0.25s top;
+  padding: 5px 0px 0px 10px;
+  box-shadow: inset 0 0 50px black;
+  animation-duration: 0.2s;
+}
+
+.liiku .tiedot {
+  animation-fill-mode: forwards;
+}
+
+.lopetus {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 30px;
+  font-family: Helvetica;
+  border: 1px solid black;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #303030; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@keyframes test1 {
+  0% {margin-top: 0px;}
+  100% {margin-top: 50px;}
+}

@@ -1,0 +1,21 @@
+#wrap {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  overflow-y: auto;
+  top: 100px
+}
+
+#biisit {
+  width: 100%;
+}
+
+#biisit > div {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  cursor: move;
+}
