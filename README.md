@@ -1,5 +1,6 @@
 # liikutettavaLista
 Tässä prototyyppi liikutettavasta listasta    
+v7 --> https://kassu11.github.io/liikutettavaLista/v7   
 v6 --> https://kassu11.github.io/liikutettavaLista/v6   
 v5 --> https://kassu11.github.io/liikutettavaLista/v5       
 v4 --> https://kassu11.github.io/liikutettavaLista/v4   
